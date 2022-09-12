@@ -1,0 +1,163 @@
+/* // Bootstrap and its default variables */
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+--root{
+	--fs-xl: ;
+	--fs-600:2rem;
+	--ml:20px
+	
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list {
+	background-color: white;
+	margin: 0;
+	padding: 1rem 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-items {
+	list-style: none;
+	margin-right: 2rem;
+	color: beige;
+}
+
+
+.h2{
+	color: black;
+    font-family: 'Archivo', sans-serif;
+}
+
+.mfont{
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+    transition: color 0.2s ease 0s;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+    
+    
+}
+h1 {
+    color: inherit;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+    
+    line-height: 1.1;
+	color: black;
+}
+.maintext{
+	padding-top: 2.5em;
+	font-size: 3em;
+	font-weight: 800;
+	font-family: "DM Serif Display", serif;
+}
+.btext{
+	width: 100%;
+    margin: 1em 0px;
+    font-size: 1.4em;
+	font-style: normal;
+	font-weight: 400;
+	color:rgb(27, 27, 27);
+	font-family: 'Archivo ', sans-serif;
+}
+.btext2{
+	color: black;
+	font-size: 1em;
+	font-weight: 600;
+	font-family: 'Archivo', sans-serif;
+}
+.poster{
+	height: 35rem;
+    
+    padding-left: 12rem;
+    padding-top: 4rem;
+}
+.maintext2{
+	padding-top: 1em;
+	margin: auto;
+	font-size: 2.5em;
+	font-weight: 800;
+	font-family: "DM Serif Display", serif;
+	color: black;
+	text-align: center;
+	max-width:700px;
+	padding-bottom: 2em;
+}
+.imgcontent{
+	height: 120px;
+	width:auto;
+	display: block;
+}
+.displaycontainer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.dtext{
+    font-size: 1.1em;
+    
+	width: 100%;
+	margin-top: 2em;
+	font-weight: 400;
+	color:rgb(27, 27, 27);
+	font-family: 'Archivo ', sans-serif;
+}
+.maintext3{
+	padding-top: 1em;
+	margin: auto;
+	font-size: 2em;
+	font-weight: 600;
+	font-family: "DM Serif Display", serif;
+	color: black;
+	text-align: center;
+	max-width:600px;
+	padding-bottom: 2em;
+}
+.hero-link {
+	text-align: center;
+}
+.footer{
+	background-color: black;
+}
+.footernav{
+	font-size:.8em;
+	 color: white;
+	 display:flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 
+}
+
+@media (max-width: 972px) {
+	.index-image  {
+	  display: none;
+	}
+  }
+
+  @media (max-width: 690px) {
+	.crd-img  {
+	
+	  margin-left: 13rem;
+  }
+}
+ @media (max-width: 690px) {
+	.crd-txt  {
+	
+	  margin-left: 9rem;
+  }
+}
